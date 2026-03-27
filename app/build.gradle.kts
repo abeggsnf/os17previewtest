@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.os16test"
-    compileSdk = 36
+    compileSdkPreview = "CinnamonBun"
 
     defaultConfig {
         applicationId = "com.example.os16test"
