@@ -10,12 +10,14 @@ java {
 
 android {
     namespace = "com.example.os16test"
+    compileSdk = 36
     compileSdkPreview = "CinnamonBun"
 
     defaultConfig {
         applicationId = "com.example.os16test"
         minSdk = 24
         targetSdk = 36
+        targetSdkPreview = "CinnamonBun"
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
