@@ -10,7 +10,7 @@ java {
 
 android {
     namespace = "com.example.os16test"
-    compileSdkPreview = "CinnamonBun"
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.os16test"
