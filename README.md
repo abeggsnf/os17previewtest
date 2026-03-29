@@ -18,13 +18,13 @@ Requires Java 21.
 
 | Branch | compileSdk | targetSdk | AGP | Gradle | Robolectric | Build | Tests |
 |--------|-----------|-----------|-----|--------|-------------|-------|-------|
-| [`scenario/01-baseline-android16`](#scenario-1) | 36 | 36 | 9.1.0 | 9.3.1 | 4.16.1 | PASS | PASS |
-| [`scenario/02-cinnamonbun-full-preview`](#scenario-2) | CinnamonBun | CinnamonBun | 9.1.0 | 9.3.1 | 4.16.1 | PASS | FAIL |
-| [`scenario/03-cinnamonbun-robolectric-properties`](#scenario-3) | CinnamonBun | CinnamonBun | 9.1.0 | 9.3.1 | 4.16.1 | PASS | FAIL |
-| [`scenario/04-cinnamonbun-snapshot-robolectric`](#scenario-4) | CinnamonBun | CinnamonBun | 9.1.0 | 9.3.1 | 4.17-SNAPSHOT | PASS | FAIL |
-| [`scenario/05-compile-preview-target-numeric`](#scenario-5) | CinnamonBun | 36 | 9.1.0 | 9.3.1 | 4.16.1 | PASS | **PASS** |
-| [`scenario/06-agp-alpha-preview`](#scenario-6) | CinnamonBun | 36 | 9.2.0-alpha04 | 9.5.0-M5 | 4.16.1 | PASS | **PASS** |
-| [`scenario/07-both-sdk-and-preview`](#scenario-7) | 36+CinnamonBun | 36+CinnamonBun | 9.1.0 | 9.3.1 | 4.16.1 | PASS | FAIL |
+| [`scenario/01-baseline-android16`](https://github.com/abeggsnf/os17previewtest/tree/scenario/01-baseline-android16?tab=readme-ov-file) | 36 | 36 | 9.1.0 | 9.3.1 | 4.16.1 | PASS | PASS |
+| [`scenario/02-cinnamonbun-full-preview`](https://github.com/abeggsnf/os17previewtest/tree/scenario/02-cinnamonbun-full-preview?tab=readme-ov-file) | CinnamonBun | CinnamonBun | 9.1.0 | 9.3.1 | 4.16.1 | PASS | FAIL |
+| [`scenario/03-cinnamonbun-robolectric-properties`](https://github.com/abeggsnf/os17previewtest/tree/scenario/03-cinnamonbun-robolectric-properties?tab=readme-ov-file) | CinnamonBun | CinnamonBun | 9.1.0 | 9.3.1 | 4.16.1 | PASS | FAIL |
+| [`scenario/04-cinnamonbun-snapshot-robolectric`](https://github.com/abeggsnf/os17previewtest/tree/scenario/04-cinnamonbun-snapshot-robolectric?tab=readme-ov-file) | CinnamonBun | CinnamonBun | 9.1.0 | 9.3.1 | 4.17-SNAPSHOT | PASS | FAIL |
+| [`scenario/05-compile-preview-target-numeric`](https://github.com/abeggsnf/os17previewtest/tree/scenario/05-compile-preview-target-numeric?tab=readme-ov-file) | CinnamonBun | 36 | 9.1.0 | 9.3.1 | 4.16.1 | PASS | **PASS** |
+| [`scenario/06-agp-alpha-preview`](https://github.com/abeggsnf/os17previewtest/tree/scenario/06-agp-alpha-preview?tab=readme-ov-file) | CinnamonBun | 36 | 9.2.0-alpha04 | 9.5.0-M5 | 4.16.1 | PASS | **PASS** |
+| [`scenario/07-both-sdk-and-preview`](https://github.com/abeggsnf/os17previewtest/tree/scenario/07-both-sdk-and-preview?tab=readme-ov-file) | 36+CinnamonBun | 36+CinnamonBun | 9.1.0 | 9.3.1 | 4.16.1 | PASS | FAIL |
 
 ---
 
