@@ -2,6 +2,12 @@ plugins {
     id("com.android.application")
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
 android {
     namespace = "com.example.os16test"
     compileSdkPreview = "CinnamonBun"
