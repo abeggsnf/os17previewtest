@@ -142,5 +142,3 @@ git checkout scenario/07-both-sdk-and-preview
 ## Key Takeaway
 
 To use the Android 17 CinnamonBun preview SDK with Robolectric, set `compileSdkPreview = "CinnamonBun"` but keep `targetSdk` as a numeric value (e.g. `36`). Do **not** set `targetSdkPreview` — it puts the string codename into the manifest which Robolectric cannot parse.
-
-See [COMPATIBILITY_REPORT.md](COMPATIBILITY_REPORT.md) for the full test matrix and error details.
